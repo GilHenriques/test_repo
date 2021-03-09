@@ -11,3 +11,6 @@ quickplot(data = dat,
           y = Depth_m,
           main = "Depth profile of Oxygen concentration") +
   scale_y_reverse()
+
+# save the plot
+ggsave("plot.pdf")
