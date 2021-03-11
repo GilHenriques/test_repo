@@ -9,6 +9,7 @@ dat <- read.csv("https://raw.githubusercontent.com/EDUCE-UBC/educer/main/data-ra
 quickplot(data = dat,
           x = O2_uM,
           y = Depth_m,
+          color = Season,
           main = "Depth profile of Oxygen concentration") +
   scale_y_reverse()
 
