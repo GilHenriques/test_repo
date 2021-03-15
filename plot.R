@@ -10,6 +10,7 @@ quickplot(data = dat,
           x = O2_uM,
           y = Depth_m,
           color = Depth_m,
+          shape = Season,
           main = "Depth profile of Oxygen concentration") +
   scale_y_reverse()
 
